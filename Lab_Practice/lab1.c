@@ -7,13 +7,15 @@ void push(int data)
 {
     if (top == Max - 1)
     {
-        printf("Stack overflow");
+        printf("Stack overflow"
+
+        );
     }
     else
     {
         top++;
         stack[top] = data;
-        printf("inserted %d at index %d\n" ,data, top);
+        printf("inserted %d at index %d\n", data, top);
     }
 }
 
@@ -25,18 +27,18 @@ void pop()
     }
     else
     {
-        
+
         printf("data deleted %d at index %d\n", stack[top], top);
         top--;
     }
 }
 
-void show(){
+void show()
+{
     for (int i = 0; i <= top; i++)
     {
         printf("%d\n", stack[i]);
     }
-    
 }
 
 int main()
