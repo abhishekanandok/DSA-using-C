@@ -3,6 +3,8 @@
 int stack[Max];
 int top = -1;
 
+//stack using array
+
 void push(int data)
 {
     if (top == Max - 1)

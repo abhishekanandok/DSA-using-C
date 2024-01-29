@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+//reverse a string using stack
 
 #define MAX_SIZE 100
 
