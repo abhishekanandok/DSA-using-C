@@ -40,7 +40,7 @@ int main(){
     int arr[] = {1,3,5,56,64,73,123,225,444};
     int size = sizeof(arr)/sizeof(int);
     int element = 444;
-    int searchIndex = binarySearch(arr, size, element);
+    int searchIndex = linearSearch(arr, size, element);
     printf("The element %d was found at index %d \n", element, searchIndex);
     return 0;
 }
