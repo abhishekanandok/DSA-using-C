@@ -77,15 +77,17 @@ int peek(int pos){
 }
  
 int main(){
-    top = push(top, 28);
-    top = push(top, 18);
-    top = push(top, 15);
-    top = push(top, 7);
+    push(top, 28);
+    push(top, 18);
+    // top = push(top, 15);
+    // top = push(top, 7);
+    pop(top);
+
+    // linkedListTraversal(top);
+    // for (int i = 1; i <= 4; i++)
+    // {
+    //     printf("Value at position %d is : %d\n", i, peek(i));
+    // }
     
-    linkedListTraversal(top);
-    for (int i = 1; i <= 4; i++)
-    {
-        printf("Value at position %d is : %d\n", i, peek(i));
-    }
     return 0;
 }
